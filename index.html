@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Temperature Converter</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="conversionType">Select Conversion Type</label>
+                <select class="form-control" id="conversionType">
+                  <option value="celsiusToFahrenheit">
+                    Celsius to Fahrenheit
+                  </option>
+                  <option value="fahrenheitToCelsius">
+                    Fahrenheit to Celsius
+                  </option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="celsius">Celsius</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="celsius"
+                  disabled
+                />
+              </div>
+              <div class="form-group">
+                <label for="fahrenheit">Fahrenheit</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="fahrenheit"
+                  disabled
+                />
+              </div>
+              <button class="btn btn-primary btn-block" id="convertBtn">
+                Convert
+              </button>
+              <div class="temperature-scale">
+                <!-- Replace the src attribute with your GIF file -->
+                <img src="./assets/tenor.gif" alt="Animated GIF" />
+              </div>
+              <!-- <div class="gif-container">
+              <img src="./assets/tenor.gif" alt="Animated GIF" />
+            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./new.js"></script>
+  </body>
+</html>

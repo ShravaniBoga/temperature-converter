@@ -1,0 +1,41 @@
+body {
+  background-color: #68a4b5; /* Background color */
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+}
+.form-control {
+  font-size: 18px;
+}
+.btn-primary {
+  font-size: 18px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.temperature-scale {
+  margin-top: 20px;
+  text-align: center;
+}
+.temperature-scale img {
+  max-height: 200px; /* Decreased size */
+  width: auto;
+  display: block; /* Center the image */
+  margin: 0 auto; /* Center the image */
+}
+.gif-container {
+  float: right;
+}
+/* .gif-container img {
+max-height: 200px;
+width: auto;
+} */
